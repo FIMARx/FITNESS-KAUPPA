@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS KAUPPA</title>
+    <link type="image/x-icon" href="img/favicon.ico" rel="icon">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <section class="navigation">
+      <div class="nav-container">
+        <div class="brand">
+          <a href="#!"><i class="fa-solid fa-dumbbell"></i> FITNESS KAUPPA</a>
+        </div>
+        <nav>
+          <div class="nav-mobile">
+            <a id="nav-toggle" href="#!"><span></span></a>
+          </div>
+          <ul class="nav-list">
+            <li>
+              <a class="activeNav" href="index.html"><i class="fa-solid fa-house-chimney"></i> Koti</a>
+            </li>
+            <li>
+              <a href="shop.html"><i class="fa-solid fa-basket-shopping"></i> Kauppa</a>
+            </li>
+            <li>
+              <a href="about.html"><i class="fa-solid fa-users-line"></i> Meistä</a>
+            </li>
+            <li>
+              <a href="contact.html"><i class="fa-solid fa-address-book"></i> Ota yhteyttä</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- END OF NAVIGATION BAR -->
+
+    <!-- SLIDER -->
+    <header>
+      <div class="carousel slide" id="carouselExampleCaptions" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleCaptions" type="button" aria-current="true" aria-label="Slide 1"></button>
+          <button data-bs-slide-to="1" data-bs-target="#carouselExampleCaptions" type="button" aria-label="Slide 2"></button>
+          <button data-bs-slide-to="2" data-bs-target="#carouselExampleCaptions" type="button" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="
+              background-image: url('https://wallpaper.dog/large/5547157.jpg');
+            ">
+            <div class="carousel-caption">
+              <h5>
+                <span style="-webkit-text-stroke: 0.5px rgb(0, 0, 0)">Uutta tietä urheiluun!</span>
+              </h5>
+              <p>
+                <span style="
+                    color: rgb(199, 243, 5);
+                    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+                  "><b>Meiltä saat kaiken mitä tarvitset urheilu urassasi.</b></span>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" style="
+              background-image: url('https://media.architecturaldigest.com/photos/5e8610a986a09a0009065e1a/2:1/w_4200,h_2100,c_limit/20190822_Kasler_Nashville_09_Gym_008.jpg');
+            ">
+            <div class="carousel-caption">
+              <h5>
+                <span style="
+                    color: rgb(5, 136, 243);
+                    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+                  ">Kaikenlaista varustusta kotisaleihin</span>
+              </h5>
+              <p>
+                <span style="
+                    color: rgb(11, 239, 255);
+                    -webkit-text-stroke: 0.5px black;
+                  "><b>Nopea toimitus rakentamaan unelma kotisalia</b></span>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" style="
+              background-image: url('https://digitalmatrixagency.com/wp-content/uploads/2019/06/customer-service-lagos-nigeria.jpg');
+            ">
+            <div class="carousel-caption">
+              <h5>Hyvää palvelua</h5>
+              <p>
+                <b>Meidän asiakkaamme ovat hyvin tyytyvällisiä tuotteisiin.</b>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleCaptions" type="button">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleCaptions" type="button">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- END OF SLIDER -->
+
+    <!-- CONTAINER -->
+    <div class="container">
+      <section id="features">
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+          <div class="desc">
+            <h2>Korkealaatuiset materiaalit</h2>
+            <p>
+              Laitteemme on valmistettu vahvasta teräksestä. Tämä tekee
+              laitteista pitkäikäisiä
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+          <div class="desc">
+            <h2>Nopea toimitus</h2>
+            <p>
+              Saat kuntoiluvälineet heti tilauksen jälkeen. Toimituksemme
+              tulevat ulkomailta
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2>Laatuvakuutus</h2>
+            <p>
+              Takaamme jokaisen tekemäsi ostoksen korvaamisen mahdollisten
+              vaurioiden varalta kuukauden kuluessa ostosta
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- MAGICAL BUTTON -->
+      <button class="learn-more" id="ezbtn">
+        <span class="circle" aria-hidden="true">
+          <span class="icon arrow"></span>
+        </span>
+        <span class="button-text"><a class="ahref" href="shop.html" style="text-decoration: none; color: rgb(0, 0, 0)">Ostoksille <i class="fa-solid fa-cart-shopping"></i></a></span>
+      </button>
+      <!-- END OF MAGICAL BUTTON -->
+
+      <pre></pre>
+
+      <!-- RAITINGS -->
+      <span class="heading">Käyttäjäarvostelut</span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <p>4,1 keskiarvo 254 arvostelun perusteella.</p>
+      <hr style="border: 3px solid #f1f1f1">
+
+      <div class="row">
+        <div class="side">
+          <div>5 tähteä</div>
+        </div>
+        <div class="middle">
+          <div class="bar-container">
+            <div class="bar-5"></div>
+          </div>
+        </div>
+        <div class="side right">
+          <div>150</div>
+        </div>
+        <div class="side">
+          <div>4 tähteä</div>
+        </div>
+        <div class="middle">
+          <div class="bar-container">
+            <div class="bar-4"></div>
+          </div>
+        </div>
+        <div class="side right">
+          <div>63</div>
+        </div>
+        <div class="side">
+          <div>3 tähteä</div>
+        </div>
+        <div class="middle">
+          <div class="bar-container">
+            <div class="bar-3"></div>
+          </div>
+        </div>
+        <div class="side right">
+          <div>15</div>
+        </div>
+        <div class="side">
+          <div>2 tähteä</div>
+        </div>
+        <div class="middle">
+          <div class="bar-container">
+            <div class="bar-2"></div>
+          </div>
+        </div>
+        <div class="side right">
+          <div>6</div>
+        </div>
+        <div class="side">
+          <div>1 tähteä</div>
+        </div>
+        <div class="middle">
+          <div class="bar-container">
+            <div class="bar-1"></div>
+          </div>
+        </div>
+        <div class="side right">
+          <div>20</div>
+        </div>
+      </div>
+      <!-- END OF RAITINGS -->
+    </div>
+    <!-- END OF CONTAINER -->
+  </body>
+  <!-- FOOTER -->
+  <footer class="sticky-footer">
+    <hr style="
+        height: 2px;
+        border-width: 0;
+        color: azure;
+        background-color: #262626;
+      ">
+    <p class="copyright">
+      <i class="fa-solid fa-f"></i>
+      <i class="fa-solid fa-i"></i>
+      <i class="fa-solid fa-t"></i>
+      <i class="fa-solid fa-n"></i>
+      <i class="fa-solid fa-e"></i>
+      <i class="fa-solid fa-s"></i>
+      <i class="fa-solid fa-s"></i>&nbsp;
+      <i class="fa-solid fa-k"></i>
+      <i class="fa-solid fa-a"></i>
+      <i class="fa-solid fa-u"></i>
+      <i class="fa-solid fa-p"></i>
+      <i class="fa-solid fa-p"></i>
+      <i class="fa-solid fa-a"></i>&nbsp;
+      <i class="fa-regular fa-copyright"></i>&nbsp;
+      <i class="fa-solid fa-2"></i>
+      <i class="fa-solid fa-0"></i>
+      <i class="fa-solid fa-2"></i>
+      <i class="fa-solid fa-3"></i>
+    </p>
+  </footer>
+  <!-- END OF FOOTER -->
+
+  <!-- SCRIPT PHASE -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/00bba88349.js" crossorigin="anonymous"></script>
+  <!-- END OF SCRIPT PHASE -->
+</html>

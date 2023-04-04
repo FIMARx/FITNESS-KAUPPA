@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS KAUPPA</title>
+    <link type="image/x-icon" href="img/favicon.ico" rel="icon">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  </head>
+    <!-- NAVIGATION BAR -->
+    <section class="navigation">
+      <div class="nav-container">
+        <div class="brand">
+          <a href="#!"><i class="fa-solid fa-dumbbell"></i> FITNESS KAUPPA</a>
+        </div>
+        <nav>
+          <div class="nav-mobile">
+            <a id="nav-toggle" href="#!"><span></span></a>
+          </div>
+          <ul class="nav-list">
+            <li>
+              <a href="index.html"><i class="fa-solid fa-house-chimney"></i> Koti</a>
+            </li>
+            <li>
+              <a href="shop.html"><i class="fa-solid fa-basket-shopping"></i> Kauppa</a>
+            </li>
+            <li>
+              <a href="about.html"><i class="fa-solid fa-users-line"></i> Meistä</a>
+            </li>
+            <li>
+              <a class="activeNav" href="contact.html"><i class="fa-solid fa-address-book"></i> Ota yhteyttä</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- END OF NAVIGATION BAR -->
+
+    <!-- CONTACT -->
+    <div class="container">
+      <form id="contact" action="contact.php" method="post">
+        <h3><b><i class="fa-regular fa-address-book"></i> Ota meihin yhteyttä</b></h3>
+        <input name="_subject" type="hidden" value="New message!">
+        <fieldset>
+          <input name="name" type="text" placeholder="&#xf5b7; - Nimesi" style="font-family: Arial, Fontawesome;" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input name="email" type="email" placeholder="&#xf0e0; - Sähköpostiosoitteesi" style="font-family: Arial, Fontawesome;" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <legend>
+          <input name="phone" type="tel" placeholder="&#xf095; - Puhelinnumerosi (valinnainen)" style="font-family: Arial, Fontawesome;" tabindex="3" required>
+          </legend>
+        </fieldset>
+        <fieldset>
+          <textarea name="message" placeholder="&#xf27a; - Kirjoita viestisi tähän...." style="font-family: Arial, Fontawesome;" tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button id="contact-submit" name="submit" data-submit="...Lähetetään" type="submit">
+            <i class="fa-regular fa-paper-plane"></i> Lähetä
+          </button>
+        </fieldset>
+      </form>
+    </div>
+    <!-- END OF CONTACT -->
+
+  <footer class="sticky-footer">
+    <hr style="
+        height: 2px;
+        border-width: 0;
+        color: azure;
+        background-color: #262626;
+      ">
+    <p class="copyright">
+      <i class="fa-solid fa-f"></i>
+      <i class="fa-solid fa-i"></i>
+      <i class="fa-solid fa-t"></i>
+      <i class="fa-solid fa-n"></i>
+      <i class="fa-solid fa-e"></i>
+      <i class="fa-solid fa-s"></i>
+      <i class="fa-solid fa-s"></i>&nbsp;
+      <i class="fa-solid fa-k"></i>
+      <i class="fa-solid fa-a"></i>
+      <i class="fa-solid fa-u"></i>
+      <i class="fa-solid fa-p"></i>
+      <i class="fa-solid fa-p"></i>
+      <i class="fa-solid fa-a"></i>&nbsp;
+      <i class="fa-regular fa-copyright"></i>&nbsp;
+      <i class="fa-solid fa-2"></i>
+      <i class="fa-solid fa-0"></i>
+      <i class="fa-solid fa-2"></i>
+      <i class="fa-solid fa-3"></i>
+    </p>
+  </footer>
+  <!-- SCRIPT PHASE -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/00bba88349.js" crossorigin="anonymous"></script>
+  <!-- END OF SCRIPT PHASE -->
+</html>
