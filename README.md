@@ -19,11 +19,12 @@ __________________________________
 ## 🚀 Getting Started
 To get a local copy up and running, follow these steps:
 
-  1. Clone the repository to your local machine.
-  2. Open the project in your preferred code editor.
-  3. Explore the HTML, CSS, and JavaScript files to understand the website's structure and functionality.
-  4. Modify and experiment with the code to suit your needs.
-  - Feel free to contribute by suggesting improvements through pull requests.
+    1. Clone the repository to your local machine.
+    2. Open the project in your preferred code editor.
+    3. Explore the HTML, CSS, and JavaScript files to understand the website's structure and functionality.
+    4. Modify and experiment with the code to suit your needs.
+    
+    - Feel free to contribute by suggesting improvements through pull requests.
 __________________________________
 # 🖼️ Showcase
 ![image](https://user-images.githubusercontent.com/69573290/235531653-89340205-3b36-4ee2-b24f-dbd929eb8bf8.png)
